@@ -27,3 +27,11 @@ def read_non_empty_string(prompt):
         user_input = input(prompt)
         if len(user_input) > 0 and user_input.isalpha():
             return user_input
+
+
+def valid_day_of_week(prompt):
+    while True:
+        days = ("monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday")
+        user_input = input(prompt).lower()
+        if user_input in days:
+            return user_input
