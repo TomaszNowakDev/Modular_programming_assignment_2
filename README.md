@@ -17,3 +17,11 @@ Write a function which accepts the list of wages (produced in q2) and the days o
 Write a function which accepts the list of wages (produced in q2) and returns the total amount of money required to pay all bonuses if each worker gets a 10% bonus.
 ### Q5
 Write a function which accepts the name, age, days of the week and wages on each day and outputs these details in a neat table. The table should have a # on each line where the wages for that day is greater than € 175.
+### Q6
+Write a function that receives the days of the week and wages on each day and prints out the day (s) on which the most money was earned and the amount.
+### Q7
+Write a function that receives the days of the week as a list and the wages on each day.
+The function will ask the user to enter a day of the week and display the amount of money earned on that day in a neat sentence.
+### Q8
+A mistake has been discovered in the company's systems and the employee's were overpaid by 5%.
+Write a function that receives the list wages for each day and reduce each wage by 5%.
